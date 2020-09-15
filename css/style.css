@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+   
+}
+
+header{
+    width: 100%;
+    min-height: 80px;
+    background-image: linear-gradient( to left, white 10%,  blue 60%, white ); 
+    text-align: center;
+    padding: 40px 0 0 0;
+    color: white;
+}
+footer{
+    width: 100%;
+    min-height: 60px;
+    background-image: linear-gradient(to right,white, blue 45%, white);
+    text-align: center;
+    padding: 20px 0 5px 0 ;
+}
+
+input{
+    width: 500px;
+    min-height: 40px;
+    border-radius: 5px;
+    border: solid 2px gray;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    box-shadow:#111111 1px 1px 2px;
+    font-size: 20px;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(55, 55, 139);
+    color: white;
+    border-radius: 9px;
+    margin: 20px 0 0 0;
+    border: none;
+   
+}
+#calc{
+    margin-bottom: 30px;
+}
+p{
+    padding: 20px;
+    font-size: 20px;
+
+}
+#saida{
+    font-size: 20px;
+    padding : 30px;
+}
+.container{
+    width: 1250px;
+    margin: 0;
+
+}
