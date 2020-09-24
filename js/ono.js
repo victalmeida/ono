@@ -43,7 +43,7 @@ var text = document.getElementById('btnThema').firstChild;
 if(text.data == 'Light Mode' )
 {
     text.data = 'Dark Mode';
-    document.body.style.backgroundImage = 'url(assets/light.jpg)';
+    document.body.style.backgroundImage = 'url(light.jpg)';
     document.getElementById('btnThema').style.backgroundColor = "rgb(30, 30, 31)";
     document.getElementById('btnThema').style.color = "rgb(255, 255, 255)";
     document.getElementById('header').style.color = "rgb(0, 0, 0)";
@@ -54,7 +54,7 @@ if(text.data == 'Light Mode' )
 else
 {
     text.data = 'Light Mode';
-    document.body.style.backgroundImage = 'url(assets/dark.jpg)';
+    document.body.style.backgroundImage = 'url(dark.jpg)';
     document.getElementById('btnThema').style.backgroundColor = "rgb(255, 255, 255)";
     document.getElementById('btnThema').style.color = "rgb(0, 0, 0)";
     document.getElementById('header').style.color = "rgb(255, 255, 255)";
