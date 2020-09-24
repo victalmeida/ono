@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Victor Hugo de Almeida">
+
+    <link rel="stylesheet" href="css/ono.css" >
+
+    <title>ONO - Disposisitvos Moveis</title>
+  </head>
+  <body>
+
+    <audio src="/assets/light.mp3" id="lightAudio"></audio>
+    <audio src="/assets/dark.mp3" id="DarkAudio"></audio>
+    <audio src="/assets/click.mp3" id="clickAudio"></audio>
+    
+        <div class="header" id="header">
+    
+                <button class="start" onclick="start()">COMEÇAR </button>
+               
+                <div class="right">
+                    <label for="btnThema"> Ativar: </label> 
+                    <button   id="btnThema" onclick="changeTheme()">Dark Mode</button>
+                </div>
+           
+        </div>
+
+        <div class="board" id="board" >
+            <div class="btnPosition" id="area" onmouseenter="moveButton()" >
+                <button class="btnClick" onclick="venceu()">
+                    clickme
+                </button>
+            </div>
+        </div>
+
+  
+   
+    <script  type="text/javascript" src="js/ono.js" ></script>
+  </body>
+</html>
+
+
